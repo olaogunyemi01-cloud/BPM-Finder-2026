@@ -1,0 +1,29 @@
+{
+  "name": "bpm-project",
+  "version": "1.0.0",
+  "description": "Backend API for finding song BPMs and time signatures",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "playwright test",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "bpm",
+    "music",
+    "playwright",
+    "express"
+  ],
+  "author": "Ola Ogunyemi",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0"
+  }
+}
